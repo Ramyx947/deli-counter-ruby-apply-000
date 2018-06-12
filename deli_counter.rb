@@ -32,7 +32,7 @@ end
 
 def take_a_number (katz_deli)
  counter = 0
- katz_deli.push counter <<
+ katz_deli.push(counter) 
   counter +=1
   puts "Welcome, #{counter}."
 end
