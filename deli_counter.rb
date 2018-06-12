@@ -1,6 +1,6 @@
 # Write your code here.
 katz_deli= [ ]
-
+ counter = 0
 def line(katz_deli)
   other_deli=[ ]
    if katz_deli.length == 0
@@ -31,7 +31,6 @@ end
 
 
 def take_a_number (katz_deli)
- counter = 0
  katz_deli.push(counter) 
   counter +=1
   puts "Welcome, #{counter}."
