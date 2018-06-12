@@ -8,6 +8,7 @@ def line(katz_deli)
    else
      katz_deli.each_with_index {|val,idx| other_deli << "#{idx+1}. #{val}"}
      puts "The line is currently: #{other_deli.join(" ")}"
+     #I am pushing the elements from katz_deli array into an empty array other_deli. This way, I will not loop over the katz_deli elements.
   end
 end
 
