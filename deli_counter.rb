@@ -31,7 +31,9 @@ end
 
 
 def take_a_number (katz_deli)
-  katz_deli.push 
-  puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
+ counter = 0
+ katz_deli.push counter <<
+  counter +=1
+  puts "Welcome, #{counter}."
 end
   
